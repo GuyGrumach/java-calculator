@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.StackPane?>
+<?import javafx.scene.layout.VBox?>
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="425.0" prefWidth="350.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <StackPane prefHeight="89.0" prefWidth="350.0">
+         <children>
+            <TextField fx:id="textField" prefHeight="55.0" prefWidth="350.0" />
+         </children>
+      </StackPane>
+      <HBox alignment="CENTER" prefHeight="90.0" prefWidth="350.0" spacing="10.0">
+         <children>
+            <Button fx:id="EmptyButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="C" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="MinusOrPlusButton" contentDisplay="CENTER" layoutX="152.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="+/-" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="PercentButton" contentDisplay="CENTER" layoutX="190.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="\%" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="DivideButton" contentDisplay="CENTER" layoutX="228.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="/" textOverrun="CENTER_ELLIPSIS" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="99.0" prefHeight="90.0" prefWidth="350.0" spacing="10.0">
+         <children>
+            <Button fx:id="SevenButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="7" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="EightButton" contentDisplay="CENTER" layoutX="152.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="8" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="NineButton" contentDisplay="CENTER" layoutX="190.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="9" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="MultipleButton" contentDisplay="CENTER" layoutX="228.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="*" textOverrun="CENTER_ELLIPSIS" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="189.0" prefHeight="90.0" prefWidth="350.0" spacing="10.0">
+         <children>
+            <Button fx:id="FourButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="4" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="FiveButton" contentDisplay="CENTER" layoutX="152.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="5" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="SixButton" contentDisplay="CENTER" layoutX="190.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="6" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="MinusButton" contentDisplay="CENTER" layoutX="228.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="-" textOverrun="CENTER_ELLIPSIS" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="279.0" prefHeight="90.0" prefWidth="350.0" spacing="10.0">
+         <children>
+            <Button fx:id="OneButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="1" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="TwoButton" contentDisplay="CENTER" layoutX="152.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="2" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="ThreeButton" contentDisplay="CENTER" layoutX="190.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="3" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="PlusButton" contentDisplay="CENTER" layoutX="228.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="+" textOverrun="CENTER_ELLIPSIS" />
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" layoutX="10.0" layoutY="94.0" prefHeight="90.0" prefWidth="350.0" spacing="10.0">
+         <children>
+            <Button fx:id="ZeroButton" alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="140.0" text="0" textOverrun="CENTER_ELLIPSIS" />
+            <Button fx:id="dotButton" contentDisplay="CENTER" layoutX="190.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onMouseClick" prefHeight="42.0" prefWidth="66.0" text="." textOverrun="CENTER_ELLIPSIS" />
+            <Button contentDisplay="CENTER" layoutX="228.0" layoutY="34.0" mnemonicParsing="false" onMouseClicked="#onEqualsClicked" prefHeight="42.0" prefWidth="66.0" text="=" textOverrun="CENTER_ELLIPSIS" />
+         </children>
+      </HBox>
+   </children>
+</VBox>
